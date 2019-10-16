@@ -1,9 +1,9 @@
-# drf-boilerplate
-django rest framework kullanım için hazır araç gereç ve örnek bir blog uygulaması
+# drf-react-boilerplate
+django rest framework ve react kullanım için hazır araç gereç ve örnek bir blog uygulaması
 
 ## Neler var
 * Arkayüzde için django, django-rest-framework, postgresql
-* Önyüz için webpack
+* Önyüz için react
 * Geliştirme ve canlı ortam için docker
 
 ### Kurulum
@@ -11,16 +11,18 @@ django rest framework kullanım için hazır araç gereç ve örnek bir blog uyg
 
 ```
 cp .env.example .env
-make bundle && make build
+cd assets && npm install
 ```
 
 ### Çalıştırma
 Geliştirme ortamı (attach)
 ```
-make development 
+make development
+cd assets && npm run start (yeni bir terminal)
 ```
 
 Canlı ortam (nginx)
 ```
+cd assets && npm run build
 make production 
 ```

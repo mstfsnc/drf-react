@@ -1,5 +1,3 @@
-bundle:
-	npm install && npm run bundle
 development: 
 	docker-compose up
 production: 
