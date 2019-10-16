@@ -1,4 +1,4 @@
-# drf-react-boilerplate
+# drf-react
 django rest framework ve react kullanım için hazır araç gereç ve örnek bir blog uygulaması
 
 ## Neler var
